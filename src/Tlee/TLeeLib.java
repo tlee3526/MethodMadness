@@ -52,7 +52,8 @@ class TleeLib
      * @param num The number which the function is checking whether is it part of the fibonnaci sequence.
      * @return It returns false when the number isn't part of the fibonnaci sequence.
      */
-    public static Boolean isFibonnaci(int num) {
+    public static Boolean isFibonnaci(int num)
+    {
         int begin = 0;
         int add = 1;
         int equal = 0;
@@ -77,7 +78,8 @@ class TleeLib
      * @param num This is the number that you must add up to from zero.
      * @return This returns the sum of all the numbers.
      */
-    public static Integer sumUpTo(int num) {
+    public static Integer sumUpTo(int num)
+    {
         int sum = 0;
         for (int i = num; i >= 0; i-- )
         {
@@ -91,7 +93,8 @@ class TleeLib
      * @param word This is the word I am testing.
      * @return This returns whether the word is a palindrome.
      */
-    public static boolean isPalindrome(String word) {
+    public static boolean isPalindrome(String word)
+    {
         String word1 = word.toLowerCase();
         int num = word.length() - 1;
         String word2 = "";
